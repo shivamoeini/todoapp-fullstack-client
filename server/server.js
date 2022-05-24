@@ -1,9 +1,9 @@
-const express=require('express');
-const router=require('./routes/routes')
-const app=express();
+const express = require("express");
 
-app.use('/api/tasks',router)
-app.listen('8000',err=>{
-    if(err) console.log(err)
-    console.log('server is started at PORT number:8000');
-})
+
+
+const app = express();
+app.listen(3000, (req,res) => {
+
+    console.log("Server is running")
+});
