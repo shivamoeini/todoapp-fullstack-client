@@ -5,4 +5,4 @@ const todoschema = new mongoose.Schema({
         required:true
     }
 })
-module.exports=mongoose.model("ToDo",todoschema)
+module.exports=mongoose.model("ToDo",todoschema);
