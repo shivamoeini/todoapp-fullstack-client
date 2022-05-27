@@ -68,7 +68,7 @@ setText(text);
        text={item.text}
        remove={()=>deleteToDo(item._id)}
        update={()=>updateToDo(item._id,item.text)} />)}
-       <Item />
+       
      </div>
    </div>
 
